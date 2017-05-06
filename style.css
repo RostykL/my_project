@@ -1,0 +1,69 @@
+* {
+  font-family: Arial;
+}
+
+.wrap {
+  margin: 100px auto;
+  width: 800px;
+  height: 350px;
+  background-color: #bfd2ef;
+}
+
+.team1 {
+  float: left;
+  width: 395px;
+  background-color: rgb(174, 239, 187);
+  height: 300px;
+  border-right: 5px solid rgb(108, 178, 122);
+} 
+.team2 {
+  float: right;
+  width: 400px;
+  background-color: rgb(174, 239, 187);
+  height: 300px;
+} 
+
+.btn {
+  background-color: #bfd2ef;
+  border: none;
+  outline:none;
+  margin: 6px 0 0 365px;
+  font-size: 2em;
+  color: #f4f5f7;
+}
+
+.btn:hover {
+  color: rgba(152, 183, 158, 0.7);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1 {
+  padding: 50px  0 0 180px;
+  font-size: 100px;
+  color: #fff;
+}
+
+.ball {
+  position: absolute;
+  margin: 50px 0 0 200px;
+}
+
+.tm1, .tm2 {
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Love Ya Like A Sister', cursive;
+  position: absolute;
+}
+
+.tm1 {
+  top: 260px;
+  left: 360px;
+  float: left;
+}
+
+
+.tm2 {
+  top: 260px;
+  right: 550px;
+  float: right;
+}
